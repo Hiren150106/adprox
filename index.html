@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digital Marketing Agency</title>
+  <title>AdProxHiren - Digital Marketing Agency</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <!-- Navigation Bar -->
   <nav>
     <div class="logo">
-      <img src="images/logo.png" alt="Agency Logo">
+      <img src="images/logo.png" alt="AdProxHiren Logo">
     </div>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
@@ -21,20 +22,23 @@
     </ul>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero Section with Video Background -->
   <section id="home" class="hero">
+    <video autoplay muted loop id="video-bg">
+      <source src="videos/background-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <div class="hero-content">
-      <h1>Welcome to Our Digital Marketing Agency</h1>
-      <p>We help businesses grow online with innovative strategies.</p>
+      <h1>Welcome to AdProxHiren</h1>
+      <p>Your Partner in Digital Marketing, Graphic Design, and Web Development.</p>
       <a href="#contact" class="cta-button">Get Started</a>
     </div>
-    <img src="images/hero-image.jpg" alt="Hero Image" class="hero-image">
   </section>
 
   <!-- About Section -->
   <section id="about" class="about">
     <h2>About Us</h2>
-    <p>We are a team of digital marketing experts dedicated to helping businesses succeed online.</p>
+    <p>We are a team of experts specializing in Digital Marketing, Graphic Design, and Web Development. Our goal is to help businesses grow online with innovative strategies and stunning visuals.</p>
   </section>
 
   <!-- Services Section -->
@@ -42,16 +46,29 @@
     <h2>Our Services</h2>
     <div class="service-cards">
       <div class="card">
+        <img src="images/seo.jpg" alt="SEO">
         <h3>SEO</h3>
-        <p>Improve your search engine rankings.</p>
+        <p>Boost your search engine rankings with our proven strategies.</p>
       </div>
       <div class="card">
+        <img src="images/social-media.jpg" alt="Social Media Marketing">
         <h3>Social Media Marketing</h3>
-        <p>Engage your audience on social platforms.</p>
+        <p>Engage your audience on platforms like Facebook, Instagram, and LinkedIn.</p>
       </div>
       <div class="card">
+        <img src="images/content-marketing.jpg" alt="Content Marketing">
         <h3>Content Marketing</h3>
-        <p>Create compelling content to attract customers.</p>
+        <p>Create compelling content that drives traffic and conversions.</p>
+      </div>
+      <div class="card">
+        <img src="images/graphic-design.jpg" alt="Graphic Design">
+        <h3>Graphic Design</h3>
+        <p>Stunning visuals for your brand, from logos to banners.</p>
+      </div>
+      <div class="card">
+        <img src="images/web-development.jpg" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Build modern, responsive, and user-friendly websites.</p>
       </div>
     </div>
   </section>
@@ -62,24 +79,37 @@
     <div class="portfolio-grid">
       <img src="images/portfolio1.jpg" alt="Portfolio 1">
       <img src="images/portfolio2.jpg" alt="Portfolio 2">
-      <!-- Add more images as needed -->
+      <img src="images/portfolio3.jpg" alt="Portfolio 3">
+      <img src="images/portfolio4.jpg" alt="Portfolio 4">
     </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><i class="fas fa-phone"></i> +91 9081321291</p>
+        <p><i class="fas fa-envelope"></i> adproxhiren.marketing@gmail.com</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2023 Your Digital Marketing Agency. All rights reserved.</p>
+    <p>&copy; 2023 AdProxHiren. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
