@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
-        alert("Your message has been sent!");
+        alert("Your message has been sent successfully!");
         form.reset();
     });
 });
