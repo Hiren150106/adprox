@@ -49,6 +49,9 @@ nav ul li a {
     color: white;
     text-align: center;
 }
+#home {
+    background: url('background.jpg') no-repeat center center/cover;
+}
 
 .hero-content h1 {
     font-size: 3rem;
