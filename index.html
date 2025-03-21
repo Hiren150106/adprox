@@ -7,96 +7,86 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Header / Navigation -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <img src="adprox.webp" alt="AdProxHiren Logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <img src="images/adprox.webp" alt="AdProxHiren Logo">
         </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <h1>Grow Your Business with AdProxHiren</h1>
-        <p>We provide top-notch Digital Marketing Services</p>
+    <section id="home">
+        <h1>Transforming Brands, Driving Results!</h1>
+        <p>Your trusted digital marketing partner.</p>
+        <button>Get Started</button>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="section">
-        <h2>Our Services</h2>
-        <div class="service-list">
-            <a href="service-detail.html"><img src="digital-marketing-with-icons-business-people.jpg" alt="Digital Marketing"></a>
-            <a href="service-detail.html"><img src="social-media-connection-graphics-concept.jpg" alt="Social Media"></a>
-            <a href="service-detail.html"><img src="programming-background-collage.jpg" alt="Programming"></a>
-            <a href="service-detail.html"><img src="top-view-tools-marketing.jpg" alt="Marketing"></a>
-        </div>
-    </section>
-
-    <!-- About Us Section -->
-    <section id="about" class="section">
+    <section id="about">
         <h2>About Us</h2>
-        <img src="modern-equipped-computer-lab.jpg" alt="About Us">
+        <img src="images/modern-equipped-computer-lab.jpg" alt="About Us">
+        <p>We are passionate digital marketers helping businesses grow online.</p>
     </section>
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="section">
-        <h2>Testimonials</h2>
-        <img src="map-lying-wooden-table.jpg" alt="Testimonials">
-    </section>
-
-    <!-- Blog Section -->
-    <section id="blog" class="section">
-        <h2>Blog</h2>
-        <p>Stay tuned for our latest updates.</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:adproxhiren.marketing@gmail.com">adproxhiren.marketing@gmail.com</a></p>
-        <p>Call: <img src="icons8-call-50.png" alt="Call Icon"></p>
-        
-        <div class="social-links">
-            <a href="https://www.instagram.com/adprox.hiren/" target="_blank">
-                <img src="icons8-instagram-24.png" alt="Instagram">
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=61557508546272" target="_blank">
-                <img src="icons8-facebook-24.png" alt="Facebook">
-            </a>
-            <a href="https://www.linkedin.com/in/hiren-mandaliya-104214303/" target="_blank">
-                <img src="icons8-linkedin-24.png" alt="LinkedIn">
-            </a>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="images/digital-marketing-with-icons-business-people.jpg" alt="Digital Marketing">
+            <h3>Social Media Marketing</h3>
+            <p>Boost your brand visibility across social media.</p>
         </div>
+        <div class="service">
+            <img src="images/social-media-connection-graphics-concept.jpg" alt="SEO Optimization">
+            <h3>Google & Meta Ads</h3>
+            <p>Effective ad campaigns for better conversions.</p>
+        </div>
+        <div class="service">
+            <img src="images/programming-background-collage.jpg" alt="Web Development">
+            <h3>Website Development</h3>
+            <p>Professional websites that convert visitors into customers.</p>
+        </div>
+    </section>
 
-        <!-- Contact Form -->
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Coming Soon...</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <img src="images/map-lying-wooden-table.jpg" alt="Testimonials">
+        <p>"AdProxHiren is a promising agency, their strategies are on point!" – Industry Expert</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <img src="images/vector-damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-victo.zip" alt="Contact">
+        <p>Phone: +91 9081321291</p>
+        <p>Email: adproxhiren.marketing@gmail.com</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/adprox.hiren/"><img src="images/icons8-instagram-24.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/profile.php?id=61557508546272"><img src="images/icons8-facebook-24.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/in/hiren-mandaliya-104214303/"><img src="images/icons8-linkedin-24.png" alt="LinkedIn"></a>
+        </div>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-logo">
-            <img src="adprox.webp" alt="Footer Logo">
-        </div>
-        <p>&copy; 2025 AdProxHiren. All Rights Reserved.</p>
+    <footer>
+        <p>&copy; 2025 AdProxHiren. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
